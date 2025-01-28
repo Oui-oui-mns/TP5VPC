@@ -1,7 +1,7 @@
 from flask import Flask, render_template, request
 import requests
 
-app = Flask(__name__)
+app=Flask(__name__)
 
 # Configuration de l'API FastAPI
 API_URL = "http://localhost:8000"  # Remplacez par l'URL de votre API FastAPI
